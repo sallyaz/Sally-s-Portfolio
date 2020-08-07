@@ -1,0 +1,222 @@
+:root {
+    --primary-color: #2B2C2C;
+    --secondery-color: #303131;
+    --primary--text-color: #fff;
+    --secondary--text--color: #829D9F;
+    --bold--text--color: #F7A95A;
+    --animation-speed: 2s;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.2;
+    background: #fff;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: var(--primary--text-color);
+    text-decoration: none;
+}
+
+.hero {
+    background: var(--primary-color);
+}
+
+/* navbar */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    top: 0;
+    padding: 0 30px;
+    transition: 0.5s ;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar a{  
+    text-decoration: none;
+    list-style: none;
+    padding: 0 15px;
+    color: var(--primary--text-color);
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.navbar.top {
+    background: transparent;
+}
+.navbar .logo > img {
+    width: 100px;
+}
+
+.navbar a:hover {
+    padding-bottom: 3px;
+    border-bottom: var(--bold--text--color) solid;
+    color: var(--bold--text--color);
+}
+.navbar.top{
+    background: transparent;
+}
+
+/* Home */
+
+.home-container {
+    height: 100vh;
+    display: flex;
+}
+
+.home_lable_ligth {
+    font-size: 2rem;
+    color: var(--primary--text-color);
+}
+.home_lable_bold {
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--bold--text--color);
+}
+.home_sub_lable {
+    font-size: 2rem;
+    color: var(--primary--text-color);
+    padding-bottom: 1.2rem;
+}
+
+.left__home__container {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    /* padding-left: 6rem; */
+    margin-left: 6rem;
+}
+
+.rigth__home__container{
+    /* border: 2px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+}
+
+.container_pic > img {
+    border-radius: 50%;
+    border: 3px solid var(--bold--text--color);
+    width: 450px;
+}
+/* button */
+
+.btn {
+    width: 230px;
+    height: 60px;
+    border-radius: 4px;
+    background-color: var(--bold--text--color);
+    color: var(--primary--text-color);
+    border: none;
+    font-size: 26px;
+    margin-top: 15px;
+    transition: color 0.4s;
+    transition: background-color 0.4s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: var(--primary-colortext--color);
+    color: var(--bold--text--color);
+    border: 3px solid var(--bold--text--color);
+}
+
+/* Page animation */
+
+/* .left__home__container .home_lable_ligth,
+.left__home__container .home_lable_bold,
+.left__home__container .home_sub_lable,
+.left__home__container .btn {
+    transform: translateX(-800px);
+    animation: heading var(--animation-speed) forwards ease-in;
+ }
+
+@keyframes heading {
+    to {
+        transform: translateX(0);
+    }
+} */
+
+
+/* About page */
+
+#about {
+    height: 100vh;
+    background: var(--secondery-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--secondery-color);
+}
+
+.about_lable{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: var(--secondary--text--color);
+
+    
+}
+.seperator {
+    border-bottom: 3px solid var(--bold--text--color);
+    margin-top: 2px;
+
+    display: flex;
+    align-items: center;
+}
+
+#about p {
+    font-size: 1.2rem;
+    color: #829D9F;
+}
+
+.about_lable_bold {
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--bold--text--color);
+}
+
+/* About Page animation */
+
+/* #about .about_lable,
+#about .seperator,
+#about .btn,
+#about p {
+    transform: translateY(800px);
+    animation: about var(--animation-speed) forwards ease-in-out;
+    opacity: 0;
+ }
+
+@keyframes about {
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}  */
+
