@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/99c77ee3b5.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
     <title>Sally's Portfolio</title>
 </head>
 <body>
@@ -44,7 +45,7 @@
      <!--About: Icons-->
      <section id="about" class="about bg-light">
                 <div>
-                    <span class="about_lable">About Me</span><br>
+                    <span class="about_lable"><b>About Me</b></span><br>
                     <div class="seperator"></div><br>
                     <p >Well-versed in technology and writing code  to create systems that are reliable and  user-friendly.
                         <br>
@@ -56,7 +57,7 @@
                         
                 </div>
     </section>
-      <!-- About: Icons
+     <!--  About: Icons
       <section id="about" class="icon bg-light">
         <i class="fas fa-address-card fa-2x"></i>
         <div>
@@ -95,7 +96,7 @@
  
   <div class="contact-container" id="contact">
       <div class="contact__lable">
-          <span class="page__lable">Contact Me</span>
+          <span class="page__lable"><b>Contact Me</b></span>
 
       </div>
       <div class="sub__container">
@@ -104,11 +105,13 @@
             <br>
             <br>
             <div class="box">
-                <i class="far fa-envelope fa-2x"><sapn> Sallyazulay@gmail.com</sapn></i>
+                <i class="far fa-envelope"></i>
+                <sapn> <b> Sallyazulay@gmail.com </b></sapn>
             </div>
             <br>
             <div class="box">
-                <i class="fas fa-phone-square-alt"><sapn><b> 052-7411313</b> </sapn></i>
+                <i class="fas fa-phone-square-alt"></i>
+                <sapn><b> 052-7411313</b> </sapn>
             </div>
             
             <div class="social">
@@ -121,37 +124,30 @@
             </div>
 
         </section>
-        <form name="contact" method="POST" data-netlify="true">
-            <div class="right__contact__container">
+        <div class="right__contact__container">
+        <form class="contact-form" name="contact" method="POST" data-netlify="true">
                     <div class="conatiner__input__name">
-                    <span name="name_lable" class="lable_input">NAME</span>
-                    <br>
+                    <lable name="name_lable" class="lable_input">NAME</lable><br>
                     <input name="name" placeholder="Type your name" class="input_name" type="text" value="">
                 </div>
               <div class="conatiner_input_phone_email">
                     <div class="container_input_phone">
-                      <span class="lable_input">PHONE NUMBER</span>
-                      <br>
+                      <lable class="lable_input">PHONE NUMBER</lable><br>
                       <input name="phone" placeholder="Type your phone number" class="input_phone" type="text" value="">
                   </div>
                       <div class="container_input_email">
-                          
-                          <span name="email_lable" class="lable_input">EMAIL</span>
-                          <br>
-                        
+                          <lable name="email_lable" class="lable_input">EMAIL</lable><br>
                           <input name="email" placeholder="Type your email address" class="input_email" type="text" value=""> 
                       </div>
                 </div>
                   <div>
-                      <span name="message_lable" class="lable_input">YOUR MESSAGE</span>
-                      <br>
+                      <lable name="message_lable" class="lable_input">YOUR MESSAGE</lable><br>
                       <textarea name="message" rows="8" class="text_area" placeholder="Type your message here"></textarea>
                   </div> 
-                  <button class="btn">SEND MESSAGE</button>
-                </form>
-              </div>
+                  <button class="submit_btn">SEND MESSAGE</button>
+                </div>
+            </form>  
           </section> 
-          
       </div>
   </div>
    
