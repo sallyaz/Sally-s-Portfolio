@@ -587,7 +587,7 @@ input[type='text']:hover, textarea:hover{
     }
 
     .container_pic > img{
-        width: 340px;
+        width: 300px;
         text-align: center;
     }
 
@@ -597,12 +597,12 @@ input[type='text']:hover, textarea:hover{
     }
 
     .left__home__container .home_sub_lable {
-       font-size: 24px;
+       font-size: 22px;
     }
 
     .left__home__container .home_lable_bold,
     .left__home__container .home_lable_ligth{
-        font-size:  40px;
+        font-size:  32px;
     }
 
     .submit_btn {
@@ -612,6 +612,10 @@ input[type='text']:hover, textarea:hover{
     }
     .contact__info__lable {
         font-size: 20px;
+    }
+
+    .contact__lable {
+        margin-bottom: 3rem;
     }
     input[type='text'], textarea{
     
@@ -692,12 +696,12 @@ input[type='text']:hover, textarea:hover{
     }
 
     .left__home__container .home_sub_lable {
-       font-size: 15px;
+       font-size: 17px;
     }
 
     .left__home__container .home_lable_bold,
     .left__home__container .home_lable_ligth{
-        font-size:  22px;
+        font-size:  27px;
     }
 
     .submit_btn {
