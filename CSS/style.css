@@ -89,8 +89,8 @@ a {
 .home_lable_bold {
     font-size: 3rem;
     font-weight: bold;
-    /* color: var(--bold--text--color); */
-    background-color: #F7A95A;
+    color: var(--bold--text--color);
+    /* background-color: #F7A95A; */
 }
 .home_sub_lable {
     font-size: 2rem;
@@ -121,8 +121,8 @@ a {
 
 .container_pic > img {
     border-radius: 50%;
-    /* border: 3px solid var(--bold--text--color); */
-    background-color: #F7A95A;
+    border: 3px solid var(--bold--text--color);
+    /* background-color: #F7A95A; */
     width: 450px;
 }
 /* button */
@@ -131,8 +131,8 @@ a {
     width: 230px;
     height: 60px;
     border-radius: 4px;
-    /* background-color: var(--bold--text--color); */
-    background-color: #F7A95A;
+    background-color: var(--bold--text--color);
+    /* background-color: #F7A95A; */
     color: var(--primary--text-color);
     border: none;
     font-size: 26px;
